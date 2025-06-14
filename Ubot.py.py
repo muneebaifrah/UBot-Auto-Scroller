@@ -11,7 +11,7 @@ from tkinter import messagebox
 import re
 
 # Replace this with your actual API key
-API_KEY = "AIzaSyCUOvyeCrN3jQTvR8zucgLyE5kO5fZcRjk"
+API_KEY = "USER_API_TO_BE_WRITTEN"
 
 def get_video_duration(video_id):
     url = f"https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id={video_id}&key={API_KEY}"
